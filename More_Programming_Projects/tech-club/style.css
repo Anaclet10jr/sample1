@@ -1,0 +1,16 @@
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body { margin: 0; font-family: Arial, sans-serif; color: #17233b; background: #f5f7fb; line-height: 1.6; }
+nav { display: flex; align-items: center; gap: 24px; padding: 18px 8%; background: white; }
+nav strong { margin-right: auto; color: #1756a9; font-size: 1.2rem; }
+nav a { color: #26364f; text-decoration: none; }
+.hero { padding: 90px 8%; color: white; background: linear-gradient(120deg, #12366b, #2479ad); }
+.hero h1 { max-width: 650px; font-size: clamp(2.3rem, 6vw, 4.5rem); line-height: 1.08; }
+.hero p { max-width: 600px; }
+.eyebrow { letter-spacing: 3px; font-weight: bold; }
+.button { display: inline-block; margin-top: 14px; padding: 12px 20px; border-radius: 7px; background: #ffcf5a; color: #18243a; text-decoration: none; font-weight: bold; }
+main { width: min(1050px, 88%); margin: 45px auto; }
+section { margin: 35px 0; }
+.cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(210px, 1fr)); gap: 18px; }
+article { padding: 22px; background: white; border-radius: 12px; box-shadow: 0 5px 18px #162b4610; }
+footer { padding: 25px; text-align: center; background: #e8edf5; }

@@ -1,0 +1,7 @@
+body { margin: 0; padding: 25px 12px; font-family: Arial, sans-serif; background: #edf2f8; color: #1c2b43; }
+.quiz { max-width: 620px; margin: 30px auto; padding: 28px; background: white; border-radius: 14px; }
+#answers { display: grid; gap: 10px; }
+#answers button, #next, #restart { padding: 12px; border: 1px solid #b9c7d8; border-radius: 8px; background: #f7f9fc; cursor: pointer; text-align: left; }
+#answers button:disabled { cursor: default; opacity: .8; }
+#next, #restart { margin-top: 18px; background: #174f91; color: white; border: 0; }
+#feedback { min-height: 24px; font-weight: bold; }
